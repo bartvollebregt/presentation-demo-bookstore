@@ -14,3 +14,8 @@ create table IF NOT EXISTS book
     primary key(id),
     foreign key (author_id) references author(id)
 );
+
+MERGE INTO author
+KEY(ID, NAME, SURNAME) VALUES
+(1, 'test author 1', 'last name'),
+(2, 'test author 2', 'name');
