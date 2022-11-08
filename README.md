@@ -13,10 +13,13 @@ ______             _        _                             _
 Main Language:
 > Java 11
 
-Frameworks:
-* a
-* b
+## Assignment
+- Clone into IDE and resolve and download Maven dependencies
+- Start spring boot and make sure everything is working
+- API: get authors using favorite API client
+- API: create a book using favorite API client
+- Create Endpoint for adding Author
+- Add Unit test for Author service & controller
 
-Libraries:
-* a
-* b 
+
+
